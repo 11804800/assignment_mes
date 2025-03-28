@@ -147,7 +147,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: fit-content;
+    width: 100%;
     padding-bottom: 10px;
 }
 
@@ -499,6 +499,11 @@
     .income-data-container,.outcome-data-container
     {
         justify-content: start;
+    }
+
+    .main-section
+    {
+        padding-left: 12px;
     }
 }
 
