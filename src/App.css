@@ -1,0 +1,629 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    gap: 20px;
+    background: rgb(20, 19, 50);
+    color: white;
+}
+
+
+.sidebar-container {
+    min-width: 270px;
+    min-height: 100dvh;
+    border-radius: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 32px 20px;
+    background: rgb(29, 29, 65);
+    transition: all ease 200ms;
+}
+
+.logo-title {
+    font-weight: 600;
+    color: white;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.sidebar-link-btn {
+    padding: 18px 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.sidebar-link-btn:hover,
+.sidebar-link-btn:active,
+.sidebar-link-btn:focus {
+    background: rgb(98, 89, 232);
+}
+
+
+.sidebar-toggle-btn-container
+{
+    display: none;
+    padding-left: 12px;
+    gap:12px;
+    padding-top: 6px;
+    align-items: center;
+}
+
+.sidebar-toggle-btn
+{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-container-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.welcome-tag {
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+
+.user-data-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 18px;
+}
+
+.search-input-container{
+    background: rgb(29, 29, 65);
+    padding: 6px 12px;
+    display: flex;
+    border-radius:8px;
+    align-items: center;
+}
+
+.search-input
+{
+    background: rgb(29, 29, 65);
+    border: none;
+    outline: none;
+    color: white;
+    width: 400px;
+}
+
+.search-input::placeholder
+{
+    color: #a7a5d1;
+    font-size: 12px;
+}
+
+.search-btn
+{
+    width: fit-content;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.stock-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.stock-info {
+    display: flex;
+    gap: 20px;
+}
+
+.income-data-container,
+.outcome-data-container {
+    background: rgb(29, 29, 65);
+    padding: 35px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.indicator-icon {
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-row {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.amount {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.income-percentage {
+    color: green;
+    font-size: 14px;
+    font-weight: 400;
+    background: rgba(0, 128, 0, 0.3);
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+.outcome-percentage {
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+.transaction-info-container,
+.transaction-info-container-1 {
+    background: rgb(29, 29, 65);
+    color: rgb(231, 230, 234);
+    padding-top: 18px;
+    padding-bottom: 28px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.tarsaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarsaction-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.transaction-details-table thead th {
+    color: rgb(181, 178, 223);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    padding: 16px 12px;
+}
+
+.transaction-details-table tbody tr td {
+    text-align: left;
+    padding: 24px 12px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.user-account-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    padding-right: 20px;
+}
+
+.user-card-details {
+    background: rgb(29, 29, 65);
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.user-activity-bar {
+    background: rgb(29, 29, 65);
+    border-radius: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.deposited-tag {
+    color: green;
+    font-size: 10px;
+    background: rgba(0, 128, 0, 0.2);
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+.search-input-container-2
+{
+    display: flex;
+    background: rgb(39, 38, 78);
+    padding: 8px 8px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.search-input-2
+{
+    background:rgb(39, 38, 78);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 6px;
+}
+
+.search-input-2::placeholder
+{
+    color: #a7a5d1;
+    font-size: 12px;
+}
+
+.card-balance-tag
+{
+    color: rgb(147, 144, 187);
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
+.amount-2
+{
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.amount-3
+{
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+
+.buttons-row
+{
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+
+.purple-btn
+{
+    background: #6259e8;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: white;
+    border:none;
+    outline: none;
+    width: 100%;
+    font-weight: 600;
+}
+
+.outline-btn
+{
+    background: transparent;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: white;
+    border:2px solid white;
+    outline: none;
+    width: 100%;
+    font-weight: 600;
+}
+
+.card-container
+{
+    padding-top: 23px;
+    background: linear-gradient(rgb(143, 54, 244),#505ff6);
+    padding: 25px;
+    border-radius: 18px;
+}
+
+.balance-tag
+{
+    color: rgb(196, 164, 250);
+    font-size: 14px;
+}
+
+.card-details
+{
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.flex-row-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.outline-btn-2
+{
+    display: flex;
+    gap: 12px;
+    border-radius: 10px;
+    border: 2px solid rgb(85, 83, 123);
+    background: transparent;
+    color: rgb(153, 151, 195);
+    align-items: center;
+    padding: 2px 10px;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.flex-row-2 h2
+{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.payment-color-indicator
+{
+    background: rgb(233, 178, 88);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+
+.activity-bar
+{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Calender-btn
+{
+    background: transparent;
+    color: #a7a5d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 4px 6px;
+    border: 1px solid #a7a5d1;
+    border-radius: 8px;
+}
+.circle
+{
+    width: 100%;
+    height: 430px;
+    background: linear-gradient(to right,rgb(174, 134, 83) 0%,rgb(174, 134, 83) 35% ,rgba(174, 134, 83,.2)  55%  ,rgba(174, 134, 83,.2) 100% );
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentage-container
+{
+    width: 300px;
+    height: 300px;
+    background: rgb(29, 29, 65);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.percentage-container h1
+{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+.close-btn
+{
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 34px;
+    display: none;
+}
+
+@media  (max-width:1300px) {
+
+    .sidebar-container
+    {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: drop-shadow(1px 1px 1px rgba(255,255,255,0.2));
+    }
+
+    .sidebar-toggle-btn-container,.close-btn
+    {
+        display: flex;
+    }
+    .income-data-container,.outcome-data-container
+    {
+        justify-content: start;
+    }
+}
+
+@media  (max-width:1200px) {
+    .sidebar-container
+    {
+        display: none;
+    }
+    .user-data-container
+    {
+        padding-left: 20px;
+        flex-direction: column;
+    }
+
+    .user-account-details-container
+    {
+        width: 100%;
+    }
+
+    .flex-row-2
+    {
+        width: 100%;
+    }
+
+    .income-data-container,.outcome-data-container
+    {
+        width: 100%;
+    }
+
+    .stock-info-container
+    {
+        width: 100%;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    .user-activity-bar
+    {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container
+    {
+        width: 500px;
+    }
+    .activity-bar
+    {
+        width: 430px;
+    }
+}
+
+@media (max-width:1000px) {
+    .header-container
+    {
+        flex-direction: column;
+        gap:20px;
+    }
+    .search-input-container
+    {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px) {
+    .stock-info
+    {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .sidebar-container
+    {
+        width: 95%;
+    }
+    .card-container
+    {
+        width: 100%;
+    }
+
+    .activity-bar
+    {
+        width: 100%;
+        height: 170px;
+    }
+    .percentage-container
+    {
+        width: 70%;
+        height: 320px;
+    }
+
+    .transaction-details-table
+    {
+        overflow-x: auto;
+        border-collapse: collapse;
+    }
+
+    .flex-row,.tarsaction-header
+    {
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .transaction-details-table tbody tr td
+    {
+        padding: 24px 6px;
+        
+    }
+
+    .stock-info-container,.user-account-details-container
+    {
+        padding: 0px;
+    }
+
+    .user-data-container
+    {
+        padding: 5px;
+    }
+    .main-section
+    {
+        padding-left: 0px;
+        padding: 10px;
+    }
+}
