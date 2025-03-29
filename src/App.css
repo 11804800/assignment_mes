@@ -490,6 +490,7 @@
         top: 0;
         left: 0;
         filter: drop-shadow(1px 1px 1px rgba(255,255,255,0.2));
+        z-index: 999;
     }
 
     .sidebar-toggle-btn-container,.close-btn
@@ -509,6 +510,12 @@
     .user-account-details-container
     {
         min-width: 450px;
+    }
+
+    .percentage-container
+    {
+        width: 250px;
+        height: 290px;
     }
 }
 
@@ -560,13 +567,22 @@
     {
         width: 500px;
     }
+
     .activity-bar
     {
         width: 430px;
     }
+
+    .percentage-container
+    {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media (max-width:1000px) {
+
+
     .header-container
     {
         flex-direction: column;
