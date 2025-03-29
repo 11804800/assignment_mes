@@ -91,7 +91,7 @@ function App() {
                 </div>
                 <div className='flex-col'>
                   <p style={{ fontSize: "13px", color: "rgb(136, 133, 176)" }}>Total Income</p>
-                  <div className='flex-row'>
+                  <div className='flex-row' style={{flexDirection:"row"}}>
                     <p className='amount'>$632.000</p>
                     <p className='income-percentage'>+1.29%</p>
                   </div>
@@ -103,7 +103,7 @@ function App() {
                 </div>
                 <div className='flex-col'>
                   <p style={{ fontSize: "13px", color: "rgb(136, 133, 176)" }}>Total Outcome</p>
-                  <div className='flex-row'>
+                  <div className='flex-row' style={{flexDirection:"row"}}>
                     <p className='amount'>$632.000</p>
                     <p className='outcome-percentage'>+1.29%</p>
                   </div>
