@@ -258,7 +258,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='flex-row' style={{ gap: "10px" }}>
+              <div className='flex-row bar-tag' style={{ gap: "10px",flexDirection:"row"}}>
                 <span className='payment-color-indicator'></span>
                 <p>Daily payment</p>
               </div>

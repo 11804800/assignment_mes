@@ -503,11 +503,22 @@
 
     .main-section
     {
-        padding-left: 12px;
+        padding-left: 8px;
+    }
+
+    .user-account-details-container
+    {
+        min-width: 450px;
     }
 }
 
 @media  (max-width:1200px) {
+
+    .bar-tag
+    {
+        margin-left: -280px;
+    }
+
     .sidebar-container
     {
         display: none;
@@ -565,12 +576,39 @@
     {
         justify-content: space-between;
     }
+    
 }
 
 @media (max-width:768px) {
     .stock-info
     {
         flex-direction: column;
+    }
+
+    .tarsaction-header
+    {
+        flex-direction: column;
+        gap:20px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flex-row
+    {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .card-container
+    {
+        width: 100%;
+    }
+
+    .user-account-details-container
+    {
+        min-width: 100%;
     }
 
 }
@@ -603,13 +641,6 @@
         border-collapse: collapse;
     }
 
-    .flex-row,.tarsaction-header
-    {
-        justify-content: start;
-        align-items: start;
-        gap: 10px;
-        flex-direction: column;
-    }
 
     .transaction-details-table tbody tr td
     {
@@ -631,4 +662,35 @@
         padding-left: 0px;
         padding: 10px;
     }
+
+    .user-activity-bar
+    {
+        padding: 24px 12px;
+    }
+
+
+    .transaction-details-table tbody tr td
+    {  
+        text-align: left;
+        padding: 24px 6px;
+    }
+
+    .bar-tag
+    {
+        margin-left: 0;
+        align-self: flex-start;
+    }
+
+    .transaction-info-container,
+    .transaction-info-container-1
+    {
+        overflow-x:scroll;
+    }
+
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
 }
