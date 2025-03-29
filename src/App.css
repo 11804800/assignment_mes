@@ -54,17 +54,15 @@
 }
 
 
-.sidebar-toggle-btn-container
-{
+.sidebar-toggle-btn-container {
     display: none;
     padding-left: 12px;
-    gap:12px;
+    gap: 12px;
     padding-top: 6px;
     align-items: center;
 }
 
-.sidebar-toggle-btn
-{
+.sidebar-toggle-btn {
     background: transparent;
     color: white;
     border: none;
@@ -111,16 +109,15 @@
     padding: 20px 18px;
 }
 
-.search-input-container{
+.search-input-container {
     background: rgb(29, 29, 65);
     padding: 6px 12px;
     display: flex;
-    border-radius:8px;
+    border-radius: 8px;
     align-items: center;
 }
 
-.search-input
-{
+.search-input {
     background: rgb(29, 29, 65);
     border: none;
     outline: none;
@@ -128,14 +125,12 @@
     width: 400px;
 }
 
-.search-input::placeholder
-{
+.search-input::placeholder {
     color: #a7a5d1;
     font-size: 12px;
 }
 
-.search-btn
-{
+.search-btn {
     width: fit-content;
     background: transparent;
     border: none;
@@ -284,8 +279,7 @@
     border-radius: 12px;
 }
 
-.search-input-container-2
-{
+.search-input-container-2 {
     display: flex;
     background: rgb(39, 38, 78);
     padding: 8px 8px;
@@ -293,23 +287,20 @@
     align-items: center;
 }
 
-.search-input-2
-{
-    background:rgb(39, 38, 78);
+.search-input-2 {
+    background: rgb(39, 38, 78);
     color: white;
     border: none;
     outline: none;
     padding: 8px 6px;
 }
 
-.search-input-2::placeholder
-{
+.search-input-2::placeholder {
     color: #a7a5d1;
     font-size: 12px;
 }
 
-.card-balance-tag
-{
+.card-balance-tag {
     color: rgb(147, 144, 187);
     font-size: 13px;
     font-weight: 500;
@@ -317,82 +308,72 @@
     padding-bottom: 6px;
 }
 
-.amount-2
-{
+.amount-2 {
     font-weight: 600;
     font-size: 22px;
     padding-bottom: 15px;
 }
 
-.amount-3
-{
+.amount-3 {
     font-weight: 500;
     font-size: 24px;
     padding-bottom: 15px;
     padding-top: 8px;
 }
 
-.buttons-row
-{
+.buttons-row {
     display: flex;
     gap: 10px;
     padding-top: 35px;
 }
 
-.purple-btn
-{
+.purple-btn {
     background: #6259e8;
     padding: 12px 16px;
     border-radius: 8px;
     color: white;
-    border:none;
+    border: none;
     outline: none;
     width: 100%;
     font-weight: 600;
 }
 
-.outline-btn
-{
+.outline-btn {
     background: transparent;
     padding: 12px 16px;
     border-radius: 8px;
     color: white;
-    border:2px solid white;
+    border: 2px solid white;
     outline: none;
     width: 100%;
     font-weight: 600;
 }
 
-.card-container
-{
+.card-container {
     padding-top: 23px;
-    background: linear-gradient(rgb(143, 54, 244),#505ff6);
+    background: linear-gradient(rgb(143, 54, 244), #505ff6);
     padding: 25px;
     border-radius: 18px;
 }
 
-.balance-tag
-{
+.balance-tag {
     color: rgb(196, 164, 250);
     font-size: 14px;
 }
 
-.card-details
-{
+.card-details {
     padding-top: 55px;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
 }
 
-.flex-row-2
-{
+.flex-row-2 {
     display: flex;
     justify-content: space-between;
 }
 
-.outline-btn-2
-{
+.outline-btn-2 {
     display: flex;
     gap: 12px;
     border-radius: 10px;
@@ -405,30 +386,26 @@
     font-size: 13px;
 }
 
-.flex-row-2 h2
-{
+.flex-row-2 h2 {
     font-size: 26px;
     font-weight: 500;
 }
 
-.payment-color-indicator
-{
+.payment-color-indicator {
     background: rgb(233, 178, 88);
     padding: 8px;
     border-radius: 50%;
 }
 
 
-.activity-bar
-{
+.activity-bar {
     width: 100%;
     height: 180px;
     position: relative;
     overflow: hidden;
 }
 
-.Calender-btn
-{
+.Calender-btn {
     background: transparent;
     color: #a7a5d1;
     display: flex;
@@ -440,11 +417,11 @@
     border: 1px solid #a7a5d1;
     border-radius: 8px;
 }
-.circle
-{
+
+.circle {
     width: 100%;
     height: 430px;
-    background: linear-gradient(to right,rgb(174, 134, 83) 0%,rgb(174, 134, 83) 35% ,rgba(174, 134, 83,.2)  55%  ,rgba(174, 134, 83,.2) 100% );
+    background: linear-gradient(to right, rgb(174, 134, 83) 0%, rgb(174, 134, 83) 35%, rgba(174, 134, 83, .2) 55%, rgba(174, 134, 83, .2) 100%);
     border-radius: 50%;
     position: relative;
     display: flex;
@@ -452,8 +429,7 @@
     justify-content: center;
 }
 
-.percentage-container
-{
+.percentage-container {
     width: 300px;
     height: 300px;
     background: rgb(29, 29, 65);
@@ -463,16 +439,14 @@
     align-items: start;
 }
 
-.percentage-container h1
-{
+.percentage-container h1 {
     margin-top: 50px;
     font-weight: 600;
     font-size: 30px;
     color: white;
 }
 
-.close-btn
-{
+.close-btn {
     background: transparent;
     color: white;
     outline: none;
@@ -483,100 +457,89 @@
 
 
 
-@media  (max-width:1300px) {
+@media (max-width:1300px) {
 
-    .sidebar-container
-    {
+    .sidebar-container {
         display: none;
-        position:fixed;
+        position: fixed;
         top: 0;
         left: 0;
-        filter: drop-shadow(1px 1px 1px rgba(255,255,255,0.2));
+        filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.2));
         z-index: 999;
     }
 
-    .sidebar-toggle-btn-container,.close-btn
-    {
+    .sidebar-toggle-btn-container,
+    .close-btn {
         display: flex;
     }
-    .income-data-container,.outcome-data-container
-    {
+
+    .income-data-container,
+    .outcome-data-container {
         justify-content: start;
     }
 
-    .main-section
-    {
+    .main-section {
         padding-left: 8px;
     }
 
-    .user-account-details-container
-    {
+    .user-account-details-container {
         min-width: 450px;
     }
 
-    .percentage-container
-    {
+    .percentage-container {
         width: 250px;
         height: 290px;
     }
 }
 
-@media  (max-width:1200px) {
+@media (max-width:1200px) {
 
-    .bar-tag
-    {
+    .bar-tag {
         margin-left: -280px;
     }
 
-    .sidebar-container
-    {
+    .sidebar-container {
         display: none;
     }
-    .user-data-container
-    {
+
+    .user-data-container {
         padding-left: 20px;
         flex-direction: column;
     }
 
-    .user-account-details-container
-    {
+    .user-account-details-container {
         width: 100%;
     }
 
-    .flex-row-2
-    {
+    .flex-row-2 {
         width: 100%;
     }
 
-    .income-data-container,.outcome-data-container
-    {
+    .income-data-container,
+    .outcome-data-container {
         width: 100%;
     }
 
-    .stock-info-container
-    {
+    .stock-info-container {
         width: 100%;
         justify-content: center;
         padding-right: 20px;
     }
-    .user-activity-bar
-    {
+
+    .user-activity-bar {
         justify-content: center;
         align-items: center;
     }
 
-    .card-container
-    {
+    .card-container {
         width: 500px;
     }
 
-    .activity-bar
-    {
+    .activity-bar {
         width: 430px;
     }
 
-    .percentage-container
-    {
+    .percentage-container {
         width: 300px;
         height: 300px;
     }
@@ -585,47 +548,41 @@
 @media (max-width:1000px) {
 
 
-    .header-container
-    {
+    .header-container {
         flex-direction: column;
-        gap:20px;
+        gap: 20px;
     }
-    .search-input-container
-    {
+
+    .search-input-container {
         justify-content: space-between;
     }
-    
+
 }
 
 @media (max-width:768px) {
-    .stock-info
-    {
+    .stock-info {
         flex-direction: column;
     }
 
-    .tarsaction-header
-    {
-        flex-direction: column;
-        gap:20px;
-        justify-content: start;
-        align-items: start;
-    }
-
-    .flex-row
-    {
+    .tarsaction-header {
         flex-direction: column;
         gap: 20px;
         justify-content: start;
         align-items: start;
     }
 
-    .card-container
-    {
+    .flex-row {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .card-container {
         width: 100%;
     }
 
-    .user-account-details-container
-    {
+    .user-account-details-container {
         min-width: 100%;
     }
 
@@ -633,82 +590,77 @@
 
 @media (max-width:500px) {
 
-    .sidebar-container
-    {
+    .sidebar-container {
         width: 95%;
     }
-    .card-container
-    {
+
+    .card-container {
         width: 100%;
     }
 
-    .activity-bar
-    {
+    .activity-bar {
         width: 100%;
         height: 170px;
     }
-    .percentage-container
-    {
+
+    .percentage-container {
         width: 70%;
         height: 320px;
     }
 
-    .transaction-details-table
-    {
+    .transaction-details-table {
         overflow-x: auto;
         border-collapse: collapse;
     }
 
 
-    .transaction-details-table tbody tr td
-    {
+    .transaction-details-table tbody tr td {
         padding: 24px 6px;
-        
+
     }
 
-    .stock-info-container,.user-account-details-container
-    {
+    .stock-info-container,
+    .user-account-details-container {
         padding: 0px;
     }
 
-    .user-data-container
-    {
+    .user-data-container {
         padding: 5px;
     }
-    .main-section
-    {
+
+    .main-section {
         padding-left: 0px;
         padding: 10px;
     }
 
-    .user-activity-bar
-    {
+    .user-activity-bar {
         padding: 24px 12px;
     }
 
 
-    .transaction-details-table tbody tr td
-    {  
+    .transaction-details-table tbody tr td {
         text-align: left;
         padding: 24px 6px;
     }
 
-    .bar-tag
-    {
+    .bar-tag {
         margin-left: 0;
         align-self: flex-start;
     }
 
     .transaction-info-container,
-    .transaction-info-container-1
-    {
-        overflow-x:scroll;
+    .transaction-info-container-1 {
+        overflow-x: scroll;
     }
 
 
-    body
-    {
+    body {
         overflow-x: hidden;
     }
 
+
+    .income-data-container,
+    .outcome-data-container {
+        padding: 35px 20px;
+    }
 }
